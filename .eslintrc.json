@@ -5,5 +5,10 @@
     "standard",
     "plugin:tailwindcss/recommended",
     "prettier"
-  ]
+  ],
+  "rules": {
+    "camelcase": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "tailwindcss/no-custom-classname": "off"
+  }
 }
